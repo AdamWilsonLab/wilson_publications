@@ -1233,6 +1233,12 @@
             ], 
             "sources": [
                 {
+                    "display_name": "Google+ posts", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 4, 
+                    "source_name": "googleplus"
+                }, 
+                {
                     "display_name": "News mentions", 
                     "events_last_week_count": 0, 
                     "posts_count": 38, 
@@ -1245,22 +1251,16 @@
                     "source_name": "blogs"
                 }, 
                 {
-                    "display_name": "Google+ posts", 
+                    "display_name": "Reddit posts", 
                     "events_last_week_count": 0, 
                     "posts_count": 4, 
-                    "source_name": "googleplus"
+                    "source_name": "reddit"
                 }, 
                 {
                     "display_name": "Facebook pages", 
                     "events_last_week_count": 0, 
                     "posts_count": 3, 
                     "source_name": "facebook"
-                }, 
-                {
-                    "display_name": "Reddit posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 4, 
-                    "source_name": "reddit"
                 }
             ], 
             "title": "Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions", 
@@ -1575,6 +1575,12 @@
             ], 
             "sources": [
                 {
+                    "display_name": "Google+ posts", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 3, 
+                    "source_name": "googleplus"
+                }, 
+                {
                     "display_name": "News mentions", 
                     "events_last_week_count": 0, 
                     "posts_count": 15, 
@@ -1587,22 +1593,16 @@
                     "source_name": "blogs"
                 }, 
                 {
-                    "display_name": "Google+ posts", 
+                    "display_name": "Reddit posts", 
                     "events_last_week_count": 0, 
-                    "posts_count": 3, 
-                    "source_name": "googleplus"
+                    "posts_count": 1, 
+                    "source_name": "reddit"
                 }, 
                 {
                     "display_name": "Facebook pages", 
                     "events_last_week_count": 0, 
                     "posts_count": 6, 
                     "source_name": "facebook"
-                }, 
-                {
-                    "display_name": "Reddit posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 1, 
-                    "source_name": "reddit"
                 }
             ], 
             "title": "Content Volatility of Scientific Topics in Wikipedia: A Cautionary Tale", 
@@ -1821,6 +1821,12 @@
             ], 
             "sources": [
                 {
+                    "display_name": "Google+ posts", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 1, 
+                    "source_name": "googleplus"
+                }, 
+                {
                     "display_name": "News mentions", 
                     "events_last_week_count": 0, 
                     "posts_count": 3, 
@@ -1831,12 +1837,6 @@
                     "events_last_week_count": 0, 
                     "posts_count": 1, 
                     "source_name": "blogs"
-                }, 
-                {
-                    "display_name": "Google+ posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 1, 
-                    "source_name": "googleplus"
                 }, 
                 {
                     "display_name": "Facebook pages", 
@@ -1902,6 +1902,12 @@
             ], 
             "sources": [
                 {
+                    "display_name": "Google+ posts", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 2, 
+                    "source_name": "googleplus"
+                }, 
+                {
                     "display_name": "News mentions", 
                     "events_last_week_count": 0, 
                     "posts_count": 1, 
@@ -1912,12 +1918,6 @@
                     "events_last_week_count": 0, 
                     "posts_count": 1, 
                     "source_name": "blogs"
-                }, 
-                {
-                    "display_name": "Google+ posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 2, 
-                    "source_name": "googleplus"
                 }
             ], 
             "title": "Wikipedia Content Volatility", 
@@ -4285,16 +4285,34 @@
             "source_name": "f1000"
         }, 
         {
+            "display_name": "Google+ posts", 
+            "events_last_week_count": 0, 
+            "posts_count": 10, 
+            "source_name": "googleplus"
+        }, 
+        {
             "display_name": "News mentions", 
             "events_last_week_count": 0, 
             "posts_count": 85, 
             "source_name": "news"
         }, 
         {
+            "display_name": "Tweets", 
+            "events_last_week_count": 0, 
+            "posts_count": 27, 
+            "source_name": "twitter"
+        }, 
+        {
             "display_name": "Blog posts", 
             "events_last_week_count": 0, 
             "posts_count": 31, 
             "source_name": "blogs"
+        }, 
+        {
+            "display_name": "Reddit posts", 
+            "events_last_week_count": 0, 
+            "posts_count": 5, 
+            "source_name": "reddit"
         }, 
         {
             "display_name": "Public peer reviews", 
@@ -4309,28 +4327,10 @@
             "source_name": "wikipedia"
         }, 
         {
-            "display_name": "Google+ posts", 
-            "events_last_week_count": 0, 
-            "posts_count": 10, 
-            "source_name": "googleplus"
-        }, 
-        {
             "display_name": "Facebook pages", 
             "events_last_week_count": 0, 
             "posts_count": 26, 
             "source_name": "facebook"
-        }, 
-        {
-            "display_name": "Reddit posts", 
-            "events_last_week_count": 0, 
-            "posts_count": 5, 
-            "source_name": "reddit"
-        }, 
-        {
-            "display_name": "Tweets", 
-            "events_last_week_count": 0, 
-            "posts_count": 27, 
-            "source_name": "twitter"
         }
     ], 
     "subscores": [
