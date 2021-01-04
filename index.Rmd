@@ -1,11 +1,10 @@
 ---
 title: "Publications"
 author: "Adam M. Wilson"
-date: "1/4/2021"
 output: html_document
 ---
   
-```{r}
+```{r, echo=F, results='hide', message=FALSE}
 library(scholar)
 library(tidyverse)
 library(glue)
@@ -15,6 +14,9 @@ library(stringr)
 library(tidyjson)
 library(rAltmetric)
 library(fuzzyjoin)
+```
+
+```{r, message=F, echo=F, results='asis'}
 ## Download google scholar citations
 id="zgVlijsAAAAJ"
 pubs=get_publications(id)
@@ -39,6 +41,7 @@ gs=gather_object(is$products) %>%
   spread(name,value)
 
 media=is$products %>% enter_object(posts) %>% gather_array() %>% spread_all() %>% 
+  filter(source=="news") %>% 
   mutate(link=paste0("<a href=",url," target='_blank'><font color='lightblue'>",attribution,"</font></a>"))
 
 media_summarized= media %>% 
@@ -57,10 +60,11 @@ pubs2 <- pubs %>%
 #    author=str_replace_all(author, ", \\.\\.\\.", " et al."),
     author=str_replace_all(author, "AM Wilson", "<b>AM Wilson</b>"), # make my name fat 
     author=str_replace_all(author, "A Wilson", "<b>AM Wilson</b>"), # make my name fat 
-    glue_citation=glue('{author} ({year}) <a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, <i>{journal}</i>, {number}.'),
-  glue_google=ifelse(cites==0,"",paste('(<a title="Citations from Google Scholar" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=',cid,'" target="_blank"><img alt="Altmetric" src="images/google.png" width="15px"><font color="blue">',cites,')</font></a>')),
-  glue_altmetric=ifelse(altmetric_score<0.1|is.na(altmetric_score),"",paste('<a title="Altmetric Score" href="https://www.altmetric.com/details/{altmetric_id}" target="_blank"><img alt="Altmetric" src="images/altm.png" width="15px"><font color="darkred">',round(as.numeric(altmetric_score),1),'</font></a>')),
-  glue_media=paste(ifelse(!is.na(media.x),paste('Media Links:',media.x),"")))
+#    glue_citation=glue('{author} ({year}) <a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, <i>{journal}</i>, {number}.'),
+    glue_citation=glue('<a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, <i>{journal}</i>, {number} ({year}).'),
+  glue_google=ifelse(cites==0,"",paste('<a title="Citations from Google Scholar" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=',cid,'" target="_blank"><img alt="Google Scholar" src="images/google.png" width="15px"><font color="blue">',cites,' citations; </font></a>')),
+  glue_altmetric=ifelse(altmetric_score<0.1|is.na(altmetric_score),"",paste('<a title="Altmetric " href="https://www.altmetric.com/details/{altmetric_id}" target="_blank"><img alt="Altmetric" src="images/altm.png" width="15px"><font color="darkred"> Altmetric Score ',round(as.numeric(altmetric_score),1),'</font></a>')),
+  glue_media=paste(ifelse(!is.na(media),paste('Media Links:',media),"")))
 
 # escape some special chars, german umlauts, ...
 char2html <- function(x){
@@ -89,11 +93,13 @@ html_2 <- pubs2 %>%
 
 html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist
 
-html_4 <- c(
-  paste0('<p style="text-align: right; margin-top: -40px;"><small>Last updated <i>',
-         format(Sys.Date(), format="%B %d, %Y"),
-         '&ndash; Pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=zgVlijsAAAAJ">Google Scholar profile</a>. See <a href="https://thackl.github.io/automatically-update-publications-with-R-scholar">this post</a> for how it works.</small></p>'), html_3)
+# html_4 <- c(
+#   paste0('<p style="text-align: right; margin-top: -40px;"><small>Last updated <i>',
+#          format(Sys.Date(), format="%B %d, %Y"),
+#          '&ndash; Pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=zgVlijsAAAAJ">Google Scholar profile</a>. See <a href="https://thackl.github.io/automatically-update-publications-with-R-scholar">this post</a> for how it works.</small></p>'), html_3)
 
-writeLines(html_4, "publications.html")
+
+#writeLines(html_4, "publications.html")
+writeLines(html_3)
 # write the html list to a file
 ```
