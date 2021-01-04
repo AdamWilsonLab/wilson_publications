@@ -7,18 +7,18 @@
   "claimed_at": "2016-04-11 14:59:29.656361+00:00",
   "coauthors": [
     {
-      "id": "u_isB5Xat",
-      "name": "Jasper Slingsby",
-      "num_posts": 85,
-      "orcid_id": "0000-0003-1246-1181",
-      "sort_score": 85
-    },
-    {
       "id": "0000-0003-4312-3804",
       "name": "Kent Holsinger",
       "num_posts": 95,
       "orcid_id": "0000-0003-4312-3804",
       "sort_score": 95
+    },
+    {
+      "id": "u_isB5Xat",
+      "name": "Jasper Slingsby",
+      "num_posts": 86,
+      "orcid_id": "0000-0003-1246-1181",
+      "sort_score": 86
     }
   ],
   "created": "2016-03-01 21:22:18.408549+00:00",
@@ -83,7 +83,7 @@
       "Unspecified": 0.03
     },
     "mendeley_url": {},
-    "percent_of_products": 0.4259,
+    "percent_of_products": 0.4182,
     "readers": 1735,
     "subdiscipline_percent": {
       "Agricultural and Biological Sciences": 0.43,
@@ -107,25 +107,25 @@
       "Unspecified": 0.07
     }
   },
-  "num_mentions": 188,
-  "num_orcid_products": 54,
-  "num_posts": 188,
+  "num_mentions": 189,
+  "num_orcid_products": 55,
+  "num_posts": 189,
   "num_twitter_followers": 131,
   "orcid_id": "0000-0003-3362-7806",
-  "percent_fulltext": 0.759,
-  "percent_open_license": 0.167,
+  "percent_fulltext": 0.764,
+  "percent_open_license": 0.164,
   "picture": "https://pbs.twimg.com/profile_images/378800000789335660/a4d54b2ca59a61aeec9407c77321fce9.jpeg",
   "products": [
     {
       "_title": "Metabolic asymmetry and the global diversity of marine predators",
       "altmetric_id": "54445545",
-      "altmetric_score": 363.728,
+      "altmetric_score": 360.278,
       "authors": {},
       "doi": "10.1126/science.aat4220",
       "events_last_week_count": 0,
-      "fulltext_url": {},
+      "fulltext_url": "https://science.sciencemag.org/content/sci/363/6425/eaat4220.full.pdf",
       "genre": "article",
-      "has_fulltext_url": false,
+      "has_fulltext_url": true,
       "id": "hY6QfUVZpo",
       "journal": "Science",
       "license": {},
@@ -411,10 +411,10 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
+          "display_name": "News mentions",
           "events_last_week_count": 0,
-          "posts_count": 7,
-          "source_name": "blogs"
+          "posts_count": 24,
+          "source_name": "news"
         },
         {
           "display_name": "Facebook pages",
@@ -423,28 +423,28 @@
           "source_name": "facebook"
         },
         {
-          "display_name": "News mentions",
-          "events_last_week_count": 0,
-          "posts_count": 24,
-          "source_name": "news"
-        },
-        {
           "display_name": "Wikipedia articles",
           "events_last_week_count": 0,
           "posts_count": 2,
           "source_name": "wikipedia"
+        },
+        {
+          "display_name": "Blog posts",
+          "events_last_week_count": 0,
+          "posts_count": 7,
+          "source_name": "blogs"
         }
       ],
       "title": "Metabolic asymmetry and the global diversity of marine predators",
       "url": "http://doi.org/10.1126/science.aat4220",
       "year": "2019",
-      "citations": 23,
+      "citations": 29,
       "citationlink": "4579944159378188030"
     },
     {
       "_title": "Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions",
       "altmetric_id": "6410740",
-      "altmetric_score": 345.308,
+      "altmetric_score": 344.308,
       "authors": {},
       "doi": "10.1371/journal.pbio.1002415",
       "events_last_week_count": 0,
@@ -890,16 +890,10 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
+          "display_name": "Reddit posts",
           "events_last_week_count": 0,
-          "posts_count": 6,
-          "source_name": "blogs"
-        },
-        {
-          "display_name": "Facebook pages",
-          "events_last_week_count": 0,
-          "posts_count": 3,
-          "source_name": "facebook"
+          "posts_count": 4,
+          "source_name": "reddit"
         },
         {
           "display_name": "News mentions",
@@ -908,32 +902,38 @@
           "source_name": "news"
         },
         {
-          "display_name": "Reddit posts",
+          "display_name": "Facebook pages",
           "events_last_week_count": 0,
-          "posts_count": 4,
-          "source_name": "reddit"
+          "posts_count": 3,
+          "source_name": "facebook"
         },
         {
           "display_name": "Google+ posts",
           "events_last_week_count": 0,
           "posts_count": 4,
           "source_name": "googleplus"
+        },
+        {
+          "display_name": "Blog posts",
+          "events_last_week_count": 0,
+          "posts_count": 6,
+          "source_name": "blogs"
         }
       ],
       "title": "Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions",
       "url": "http://doi.org/10.1371/journal.pbio.1002415",
       "year": "2016",
-      "citations": 168,
+      "citations": 184,
       "citationlink": "2210894244204244525"
     },
     {
       "_title": "Content Volatility of Scientific Topics in Wikipedia: A Cautionary Tale",
       "altmetric_id": "4398603",
-      "altmetric_score": 295.336,
+      "altmetric_score": 294.336,
       "authors": {},
       "doi": "10.1371/journal.pone.0134454",
       "events_last_week_count": 0,
-      "fulltext_url": "https://doi.org/10.1371/journal.pone.0134454",
+      "fulltext_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0134454&type=printable",
       "genre": "article",
       "has_fulltext_url": true,
       "id": "LSuxTJhWi9",
@@ -1234,16 +1234,10 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
+          "display_name": "Reddit posts",
           "events_last_week_count": 0,
-          "posts_count": 11,
-          "source_name": "blogs"
-        },
-        {
-          "display_name": "Facebook pages",
-          "events_last_week_count": 0,
-          "posts_count": 6,
-          "source_name": "facebook"
+          "posts_count": 1,
+          "source_name": "reddit"
         },
         {
           "display_name": "News mentions",
@@ -1252,22 +1246,28 @@
           "source_name": "news"
         },
         {
-          "display_name": "Reddit posts",
+          "display_name": "Facebook pages",
           "events_last_week_count": 0,
-          "posts_count": 1,
-          "source_name": "reddit"
+          "posts_count": 6,
+          "source_name": "facebook"
         },
         {
           "display_name": "Google+ posts",
           "events_last_week_count": 0,
           "posts_count": 3,
           "source_name": "googleplus"
+        },
+        {
+          "display_name": "Blog posts",
+          "events_last_week_count": 0,
+          "posts_count": 11,
+          "source_name": "blogs"
         }
       ],
       "title": "Content Volatility of Scientific Topics in Wikipedia: A Cautionary Tale",
       "url": "http://doi.org/10.1371/journal.pone.0134454",
       "year": "2015",
-      "citations": 21,
+      "citations": 23,
       "citationlink": "2538076968072773354"
     },
     {
@@ -1360,10 +1360,10 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
+          "display_name": "News mentions",
           "events_last_week_count": 0,
-          "posts_count": 1,
-          "source_name": "blogs"
+          "posts_count": 4,
+          "source_name": "news"
         },
         {
           "display_name": "Facebook pages",
@@ -1372,10 +1372,10 @@
           "source_name": "facebook"
         },
         {
-          "display_name": "News mentions",
+          "display_name": "Blog posts",
           "events_last_week_count": 0,
-          "posts_count": 4,
-          "source_name": "news"
+          "posts_count": 1,
+          "source_name": "blogs"
         }
       ],
       "title": "Intensifying postfire weather and biological invasion drive species loss in a Mediterranean-type biodiversity hotspot",
@@ -1484,10 +1484,10 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
+          "display_name": "News mentions",
           "events_last_week_count": 0,
-          "posts_count": 1,
-          "source_name": "blogs"
+          "posts_count": 3,
+          "source_name": "news"
         },
         {
           "display_name": "Facebook pages",
@@ -1496,22 +1496,22 @@
           "source_name": "facebook"
         },
         {
-          "display_name": "News mentions",
-          "events_last_week_count": 0,
-          "posts_count": 3,
-          "source_name": "news"
-        },
-        {
           "display_name": "Google+ posts",
           "events_last_week_count": 0,
           "posts_count": 1,
           "source_name": "googleplus"
+        },
+        {
+          "display_name": "Blog posts",
+          "events_last_week_count": 0,
+          "posts_count": 1,
+          "source_name": "blogs"
         }
       ],
       "title": "Climatic controls on ecosystem resilience: Postfire regeneration in the Cape Floristic Region of South Africa",
       "url": "http://doi.org/10.1073/pnas.1416710112",
       "year": "2015",
-      "citations": 31,
+      "citations": 33,
       "citationlink": "7262640301241929829"
     },
     {
@@ -1567,12 +1567,6 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
-          "events_last_week_count": 0,
-          "posts_count": 1,
-          "source_name": "blogs"
-        },
-        {
           "display_name": "News mentions",
           "events_last_week_count": 0,
           "posts_count": 1,
@@ -1583,6 +1577,12 @@
           "events_last_week_count": 0,
           "posts_count": 2,
           "source_name": "googleplus"
+        },
+        {
+          "display_name": "Blog posts",
+          "events_last_week_count": 0,
+          "posts_count": 1,
+          "source_name": "blogs"
         }
       ],
       "title": "Wikipedia Content Volatility",
@@ -1594,7 +1594,7 @@
     {
       "_title": "Modeling daily flowering probabilities: expected impact of climate change on Japanese cherry phenology",
       "altmetric_id": "1703993",
-      "altmetric_score": 14.874,
+      "altmetric_score": 14.624,
       "authors": {},
       "doi": "10.1111/gcb.12364",
       "events_last_week_count": 0,
@@ -1672,81 +1672,28 @@
       ],
       "sources": [
         {
-          "display_name": "Blog posts",
-          "events_last_week_count": 0,
-          "posts_count": 3,
-          "source_name": "blogs"
-        },
-        {
           "display_name": "Facebook pages",
           "events_last_week_count": 0,
           "posts_count": 1,
           "source_name": "facebook"
+        },
+        {
+          "display_name": "Blog posts",
+          "events_last_week_count": 0,
+          "posts_count": 3,
+          "source_name": "blogs"
         }
       ],
       "title": "Modeling daily flowering probabilities: expected impact of climate change on Japanese cherry phenology",
       "url": "http://doi.org/10.1111/gcb.12364",
       "year": "2014",
-      "citations": 23,
+      "citations": 24,
       "citationlink": "834067950490850962"
-    },
-    {
-      "_title": "Model-based integration of observed and expert-based information for assessing the geographic and environmental distribution of freshwater species",
-      "altmetric_id": "4861733",
-      "altmetric_score": 7.95,
-      "authors": {},
-      "doi": "10.1111/ecog.01925",
-      "events_last_week_count": 0,
-      "fulltext_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecog.01925",
-      "genre": "article",
-      "has_fulltext_url": true,
-      "id": "cduA77bkeY",
-      "journal": "Ecography",
-      "license": {},
-      "mendeley": {
-        "country_percent": {},
-        "job_title_percent": {},
-        "mendeley_url": {},
-        "readers": 0,
-        "subdiscipline_percent": {}
-      },
-      "num_mentions": 2,
-      "num_posts": 2,
-      "orcid_id": "0000-0003-3362-7806",
-      "posts": [
-        {
-          "attribution": "Ecography",
-          "posted_on": "2016-11-08T12:43:29+00:00",
-          "source": "facebook",
-          "title": "Freshwater ecosystems harbor specialized and vulnerable biodiversity, and the prediction of potential impacts of freshwater ",
-          "url": "https://www.facebook.com/permalink.php?story_fbid=1493603753988122&id=535725783109262"
-        },
-        {
-          "attribution": "Ecography",
-          "posted_on": "2016-02-17T07:30:03+00:00",
-          "source": "facebook",
-          "title": "Freshwater ecosystems harbor specialized and vulnerable biodiversity, and the prediction of potential impacts of freshwater ",
-          "url": "https://www.facebook.com/permalink.php?story_fbid=1273151679366665&id=535725783109262"
-        }
-      ],
-      "sources": [
-        {
-          "display_name": "Facebook pages",
-          "events_last_week_count": 0,
-          "posts_count": 2,
-          "source_name": "facebook"
-        }
-      ],
-      "title": "Model-based integration of observed and expert-based information for assessing the geographic and environmental distribution of freshwater species",
-      "url": "http://doi.org/10.1111/ecog.01925",
-      "year": "2015",
-      "citations": 20,
-      "citationlink": "14349399844322329686"
     },
     {
       "_title": "Integrating occurrence data and expert maps for improved species range predictions",
       "altmetric_id": "13913303",
-      "altmetric_score": 6.75,
+      "altmetric_score": 8,
       "authors": {},
       "doi": "10.1111/geb.12539",
       "events_last_week_count": 0,
@@ -1949,6 +1896,59 @@
       "citationlink": "17832906044735692584"
     },
     {
+      "_title": "Model-based integration of observed and expert-based information for assessing the geographic and environmental distribution of freshwater species",
+      "altmetric_id": "4861733",
+      "altmetric_score": 7.95,
+      "authors": {},
+      "doi": "10.1111/ecog.01925",
+      "events_last_week_count": 0,
+      "fulltext_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecog.01925",
+      "genre": "article",
+      "has_fulltext_url": true,
+      "id": "cduA77bkeY",
+      "journal": "Ecography",
+      "license": {},
+      "mendeley": {
+        "country_percent": {},
+        "job_title_percent": {},
+        "mendeley_url": {},
+        "readers": 0,
+        "subdiscipline_percent": {}
+      },
+      "num_mentions": 2,
+      "num_posts": 2,
+      "orcid_id": "0000-0003-3362-7806",
+      "posts": [
+        {
+          "attribution": "Ecography",
+          "posted_on": "2016-11-08T12:43:29+00:00",
+          "source": "facebook",
+          "title": "Freshwater ecosystems harbor specialized and vulnerable biodiversity, and the prediction of potential impacts of freshwater ",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=1493603753988122&id=535725783109262"
+        },
+        {
+          "attribution": "Ecography",
+          "posted_on": "2016-02-17T07:30:03+00:00",
+          "source": "facebook",
+          "title": "Freshwater ecosystems harbor specialized and vulnerable biodiversity, and the prediction of potential impacts of freshwater ",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=1273151679366665&id=535725783109262"
+        }
+      ],
+      "sources": [
+        {
+          "display_name": "Facebook pages",
+          "events_last_week_count": 0,
+          "posts_count": 2,
+          "source_name": "facebook"
+        }
+      ],
+      "title": "Model-based integration of observed and expert-based information for assessing the geographic and environmental distribution of freshwater species",
+      "url": "http://doi.org/10.1111/ecog.01925",
+      "year": "2015",
+      "citations": 21,
+      "citationlink": "14349399844322329686"
+    },
+    {
       "_title": "On using integral projection models to generate demographically driven predictions of species' distributions: development and validation using sparse data",
       "altmetric_id": "2531801",
       "altmetric_score": 6.6,
@@ -2021,7 +2021,7 @@
       "title": "On using integral projection models to generate demographically driven predictions of species' distributions: development and validation using sparse data",
       "url": "http://doi.org/10.1111/ecog.00839",
       "year": "2014",
-      "citations": 96,
+      "citations": 100,
       "citationlink": "12652666495545664808"
     },
     {
@@ -2093,7 +2093,7 @@
       "title": "Air pollution, weather, and respiratory emergency room visits in two northern New England cities: An ecological time-series study",
       "url": "http://doi.org/10.1016/j.envres.2004.07.010",
       "year": "2005",
-      "citations": 130,
+      "citations": 132,
       "citationlink": "11539854097788409446"
     },
     {
@@ -2148,7 +2148,7 @@
       "title": "A new class of flexible link functions with application to species co-occurrence in Cape Floristic Region",
       "url": "http://doi.org/10.1214/13-aoas663",
       "year": "2013",
-      "citations": 33,
+      "citations": 34,
       "citationlink": "2162574719024066393"
     },
     {
@@ -2194,7 +2194,7 @@
       "title": "Climatic Influences on Survival of Migratory African Reed Warblers Acrocephalus baeticatus in South Africa",
       "url": "http://doi.org/10.5253/arde.v103i2.a5",
       "year": "2015",
-      "citations": 3,
+      "citations": 4,
       "citationlink": "8347424790761169174"
     },
     {
@@ -2316,7 +2316,7 @@
       "title": "Downscaling of species distribution models: A hierarchical approach",
       "url": "http://doi.org/10.1111/j.2041-210x.2012.00264.x",
       "year": "2013",
-      "citations": 68,
+      "citations": 71,
       "citationlink": "5979909871313787952"
     },
     {
@@ -2349,7 +2349,7 @@
       "title": "Spatial detection of alpine treeline ecotones in the Western United States",
       "url": "http://doi.org/10.1016/j.rse.2020.111672",
       "year": "2020",
-      "citations": 1,
+      "citations": 3,
       "citationlink": "2516503650187358148"
     },
     {
@@ -2427,39 +2427,6 @@
       "year": "2009",
       "citations": 106,
       "citationlink": "10722199125945852415"
-    },
-    {
-      "_title": "Air pollution and the demand for hospital services: A review",
-      "altmetric_id": "15037952",
-      "altmetric_score": 3,
-      "authors": {},
-      "doi": "10.1016/j.envint.2004.01.004",
-      "events_last_week_count": 0,
-      "fulltext_url": {},
-      "genre": "article",
-      "has_fulltext_url": false,
-      "id": "WA2kGTT3PG",
-      "journal": "Environment International",
-      "license": {},
-      "mendeley": {
-        "country_percent": {},
-        "job_title_percent": {},
-        "mendeley_url": {},
-        "readers": 0,
-        "subdiscipline_percent": {}
-      },
-      "num_mentions": 0,
-      "num_posts": 0,
-      "orcid_id": "0000-0003-3362-7806",
-      "posts": [
-        {}
-      ],
-      "sources": [],
-      "title": "Air pollution and the demand for hospital services: A review",
-      "url": "http://doi.org/10.1016/j.envint.2004.01.004",
-      "year": "2004",
-      "citations": 93,
-      "citationlink": "13627242760666690959"
     },
     {
       "_title": "Uncertainty, priors, autocorrelation and disparate data in downscaling of species distributions",
@@ -2606,8 +2573,41 @@
       "title": "Uncertainty, priors, autocorrelation and disparate data in downscaling of species distributions",
       "url": "http://doi.org/10.1111/ddi.12199",
       "year": "2014",
-      "citations": 17,
+      "citations": 16,
       "citationlink": "17984584479707219233"
+    },
+    {
+      "_title": "Air pollution and the demand for hospital services: A review",
+      "altmetric_id": "15037952",
+      "altmetric_score": 3,
+      "authors": {},
+      "doi": "10.1016/j.envint.2004.01.004",
+      "events_last_week_count": 0,
+      "fulltext_url": {},
+      "genre": "article",
+      "has_fulltext_url": false,
+      "id": "WA2kGTT3PG",
+      "journal": "Environment International",
+      "license": {},
+      "mendeley": {
+        "country_percent": {},
+        "job_title_percent": {},
+        "mendeley_url": {},
+        "readers": 0,
+        "subdiscipline_percent": {}
+      },
+      "num_mentions": 0,
+      "num_posts": 0,
+      "orcid_id": "0000-0003-3362-7806",
+      "posts": [
+        {}
+      ],
+      "sources": [],
+      "title": "Air pollution and the demand for hospital services: A review",
+      "url": "http://doi.org/10.1016/j.envint.2004.01.004",
+      "year": "2004",
+      "citations": 94,
+      "citationlink": "13627242760666690959"
     },
     {
       "_title": "ISEC2014: hSDM, an R package for hierarchical species distribution models taking into account imperfect detection and spatial correlation of the observations",
@@ -2729,7 +2729,7 @@
       "title": "Beyond counts and averages: relating geodiversity to dimensions of biodiversity",
       "url": "http://doi.org/10.6084/m9.figshare.7680083",
       "year": "2019",
-      "citations": 3,
+      "citations": 6,
       "citationlink": "11676704342965394655"
     },
     {
@@ -2774,7 +2774,7 @@
       "title": "A Hierarchical Bayesian model of wildfire in a Mediterranean biodiversity hotspot: Implications of weather variability and global circulation",
       "url": "http://doi.org/10.1016/j.ecolmodel.2009.09.016",
       "year": "2010",
-      "citations": 69,
+      "citations": 70,
       "citationlink": "18256647831510752324"
     },
     {
@@ -2820,8 +2820,54 @@
       "title": "Spatial and interspecific variability in phenological responses to warming temperatures",
       "url": "http://doi.org/10.1016/j.biocon.2009.06.003",
       "year": "2009",
-      "citations": 214,
+      "citations": 219,
       "citationlink": "62062424245765126"
+    },
+    {
+      "_title": "Support for a relationship between demography and modeled habitat suitability is scale dependent for the purple martin Progne subis",
+      "altmetric_id": "92536297",
+      "altmetric_score": 0.5,
+      "authors": {},
+      "doi": "10.1111/1365-2656.13369",
+      "events_last_week_count": 0,
+      "fulltext_url": {},
+      "genre": "article",
+      "has_fulltext_url": false,
+      "id": "kXFivcVtCi",
+      "journal": "Journal of Animal Ecology",
+      "license": {},
+      "mendeley": {
+        "country_percent": {},
+        "job_title_percent": {},
+        "mendeley_url": {},
+        "readers": 0,
+        "subdiscipline_percent": {}
+      },
+      "num_mentions": 1,
+      "num_posts": 1,
+      "orcid_id": "0000-0003-3362-7806",
+      "posts": [
+        {
+          "attribution": "Ibis - international journal of avian science",
+          "posted_on": "2020-10-16T17:05:00+00:00",
+          "source": "facebook",
+          "title": "Support for a relationship between demography and modeled habitat suitability is scale dependent for the ",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=5243546279004678&id=409257242433630"
+        }
+      ],
+      "sources": [
+        {
+          "display_name": "Facebook pages",
+          "events_last_week_count": 0,
+          "posts_count": 1,
+          "source_name": "facebook"
+        }
+      ],
+      "title": "Support for a relationship between demography and modeled habitat suitability is scale dependent for the purple martin Progne subis",
+      "url": "http://doi.org/10.1111/1365-2656.13369",
+      "year": "2020",
+      "citations": 0,
+      "citationlink": null
     },
     {
       "_title": "Scaling up: Linking field data and remote sensing with a hierarchical model",
@@ -3059,7 +3105,7 @@
       "title": "An Assessment of Methods and Remote-Sensing Derived Covariates for Regional Predictions of 1 km Daily MaximumAir Temperature",
       "url": "http://doi.org/10.3390/rs6098639",
       "year": "2014",
-      "citations": 21,
+      "citations": 22,
       "citationlink": "17962076558487628612"
     },
     {
@@ -3115,6 +3161,72 @@
       "title": "MODELING LARGE SCALE SPECIES ABUNDANCE WITH LATENT SPATIAL PROCESSES",
       "url": "http://doi.org/10.1214/10-aoas335",
       "year": "2010",
+      "citations": 0,
+      "citationlink": null
+    },
+    {
+      "_title": "Monitoring Dimensions of Biodiversity in a Mega-Diverse Region of Southern Africa: from Traits to Communities to Ecosystems",
+      "altmetric_id": {},
+      "altmetric_score": 0,
+      "authors": {},
+      "doi": "10.1002/essoar.10500104.1",
+      "events_last_week_count": 0,
+      "fulltext_url": "https://doi.org/10.1002/essoar.10500104.1",
+      "genre": "other",
+      "has_fulltext_url": true,
+      "id": "C4o2cjMCYo",
+      "journal": {},
+      "license": "cc-by",
+      "mendeley": {
+        "country_percent": {},
+        "job_title_percent": {},
+        "mendeley_url": {},
+        "readers": 0,
+        "subdiscipline_percent": {}
+      },
+      "num_mentions": 0,
+      "num_posts": 0,
+      "orcid_id": "0000-0003-3362-7806",
+      "posts": [
+        {}
+      ],
+      "sources": [],
+      "title": "Monitoring Dimensions of Biodiversity in a Mega-Diverse Region of Southern Africa: from Traits to Communities to Ecosystems",
+      "url": "http://doi.org/10.1002/essoar.10500104.1",
+      "year": "2018",
+      "citations": 0,
+      "citationlink": null
+    },
+    {
+      "_title": "A Word from Alpine Tundra: Watch Out, Forests Are Invading! -- Spatial Detection of Alpine Treeline Ecotones in the Western United States",
+      "altmetric_id": {},
+      "altmetric_score": 0,
+      "authors": {},
+      "doi": "10.1002/essoar.10500196.1",
+      "events_last_week_count": 0,
+      "fulltext_url": "https://doi.org/10.1002/essoar.10500196.1",
+      "genre": "other",
+      "has_fulltext_url": true,
+      "id": "iHVC6ouJt6",
+      "journal": {},
+      "license": "cc-by-nc-nd",
+      "mendeley": {
+        "country_percent": {},
+        "job_title_percent": {},
+        "mendeley_url": {},
+        "readers": 0,
+        "subdiscipline_percent": {}
+      },
+      "num_mentions": 0,
+      "num_posts": 0,
+      "orcid_id": "0000-0003-3362-7806",
+      "posts": [
+        {}
+      ],
+      "sources": [],
+      "title": "A Word from Alpine Tundra: Watch Out, Forests Are Invading! -- Spatial Detection of Alpine Treeline Ecotones in the Western United States",
+      "url": "http://doi.org/10.1002/essoar.10500196.1",
+      "year": "2018",
       "citations": 0,
       "citationlink": null
     },
@@ -3250,7 +3362,7 @@
       "title": "Change point estimation of deciduous forest land surface phenology",
       "url": "http://doi.org/10.1016/j.rse.2020.111698",
       "year": "2020",
-      "citations": 2,
+      "citations": 3,
       "citationlink": "5013950129004221460"
     },
     {
@@ -3406,7 +3518,7 @@
       "title": "Green-up of deciduous forest communities of northeastern North America in response to climate variation and climate change",
       "url": "http://doi.org/10.1007/s10980-014-0099-7",
       "year": "2014",
-      "citations": 21,
+      "citations": 23,
       "citationlink": "15216572920139885688"
     },
     {
@@ -3464,7 +3576,7 @@
       "title": "Developing Dynamic Mechanistic Species Distribution Models: Predicting Bird-Mediated Spread of Invasive Plants across Northeastern North America",
       "url": "http://doi.org/10.1086/660295",
       "year": "2011",
-      "citations": 73,
+      "citations": 74,
       "citationlink": "12982824833770251112"
     },
     {
@@ -3534,72 +3646,6 @@
       "citationlink": null
     },
     {
-      "_title": "A Word from Alpine Tundra: Watch Out, Forests Are Invading! -- Spatial Detection of Alpine Treeline Ecotones in the Western United States",
-      "altmetric_id": {},
-      "altmetric_score": 0,
-      "authors": {},
-      "doi": "10.1002/essoar.10500196.1",
-      "events_last_week_count": 0,
-      "fulltext_url": "https://www.essoar.org/doi/pdf/10.1002/essoar.10500196.1",
-      "genre": "other",
-      "has_fulltext_url": true,
-      "id": "iHVC6ouJt6",
-      "journal": {},
-      "license": "cc-by-nc-nd",
-      "mendeley": {
-        "country_percent": {},
-        "job_title_percent": {},
-        "mendeley_url": {},
-        "readers": 0,
-        "subdiscipline_percent": {}
-      },
-      "num_mentions": 0,
-      "num_posts": 0,
-      "orcid_id": "0000-0003-3362-7806",
-      "posts": [
-        {}
-      ],
-      "sources": [],
-      "title": "A Word from Alpine Tundra: Watch Out, Forests Are Invading! -- Spatial Detection of Alpine Treeline Ecotones in the Western United States",
-      "url": "http://doi.org/10.1002/essoar.10500196.1",
-      "year": "2018",
-      "citations": 0,
-      "citationlink": null
-    },
-    {
-      "_title": "Monitoring Dimensions of Biodiversity in a Mega-Diverse Region of Southern Africa: from Traits to Communities to Ecosystems",
-      "altmetric_id": {},
-      "altmetric_score": 0,
-      "authors": {},
-      "doi": "10.1002/essoar.10500104.1",
-      "events_last_week_count": 0,
-      "fulltext_url": "https://www.essoar.org/doi/pdf/10.1002/essoar.10500104.1",
-      "genre": "other",
-      "has_fulltext_url": true,
-      "id": "C4o2cjMCYo",
-      "journal": {},
-      "license": "cc-by",
-      "mendeley": {
-        "country_percent": {},
-        "job_title_percent": {},
-        "mendeley_url": {},
-        "readers": 0,
-        "subdiscipline_percent": {}
-      },
-      "num_mentions": 0,
-      "num_posts": 0,
-      "orcid_id": "0000-0003-3362-7806",
-      "posts": [
-        {}
-      ],
-      "sources": [],
-      "title": "Monitoring Dimensions of Biodiversity in a Mega-Diverse Region of Southern Africa: from Traits to Communities to Ecosystems",
-      "url": "http://doi.org/10.1002/essoar.10500104.1",
-      "year": "2018",
-      "citations": 0,
-      "citationlink": null
-    },
-    {
       "_title": "Point pattern modelling for degraded presence-only data over large regions",
       "altmetric_id": {},
       "altmetric_score": 0,
@@ -3629,7 +3675,7 @@
       "title": "Point pattern modelling for degraded presence-only data over large regions",
       "url": "http://doi.org/10.1111/j.1467-9876.2011.01023.x",
       "year": "2011",
-      "citations": 92,
+      "citations": 93,
       "citationlink": "16361492880824597870"
     },
     {
@@ -4064,28 +4110,10 @@
   "promos": {},
   "sources": [
     {
-      "display_name": "Tweets",
+      "display_name": "Reddit posts",
       "events_last_week_count": 0,
-      "posts_count": 27,
-      "source_name": "twitter"
-    },
-    {
-      "display_name": "Blog posts",
-      "events_last_week_count": 0,
-      "posts_count": 31,
-      "source_name": "blogs"
-    },
-    {
-      "display_name": "Facebook pages",
-      "events_last_week_count": 0,
-      "posts_count": 25,
-      "source_name": "facebook"
-    },
-    {
-      "display_name": "F1000 reviews",
-      "events_last_week_count": 0,
-      "posts_count": 1,
-      "source_name": "f1000"
+      "posts_count": 5,
+      "source_name": "reddit"
     },
     {
       "display_name": "News mentions",
@@ -4094,16 +4122,16 @@
       "source_name": "news"
     },
     {
-      "display_name": "Reddit posts",
+      "display_name": "F1000 reviews",
       "events_last_week_count": 0,
-      "posts_count": 5,
-      "source_name": "reddit"
+      "posts_count": 1,
+      "source_name": "f1000"
     },
     {
-      "display_name": "Wikipedia articles",
+      "display_name": "Facebook pages",
       "events_last_week_count": 0,
-      "posts_count": 3,
-      "source_name": "wikipedia"
+      "posts_count": 26,
+      "source_name": "facebook"
     },
     {
       "display_name": "Google+ posts",
@@ -4112,10 +4140,28 @@
       "source_name": "googleplus"
     },
     {
+      "display_name": "Tweets",
+      "events_last_week_count": 0,
+      "posts_count": 27,
+      "source_name": "twitter"
+    },
+    {
       "display_name": "Public peer reviews",
       "events_last_week_count": 0,
       "posts_count": 1,
       "source_name": "peer_reviews"
+    },
+    {
+      "display_name": "Wikipedia articles",
+      "events_last_week_count": 0,
+      "posts_count": 3,
+      "source_name": "wikipedia"
+    },
+    {
+      "display_name": "Blog posts",
+      "events_last_week_count": 0,
+      "posts_count": 31,
+      "source_name": "blogs"
     }
   ],
   "subscores": [
@@ -4137,5 +4183,5 @@
     }
   ],
   "twitter": "AdamWilsonLab",
-  "updated": "2020-10-02 16:00:59.108961+00:00"
+  "updated": "2021-01-02 14:18:42.171092+00:00"
 }
