@@ -13,12 +13,11 @@ jobs:
       - name: Render Site
         run: |-
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
-          echo "::set-env name=DEPLOY_PATH::$(Rscript -e "cat(rmarkdown::site_config()[['output_dir']])")"
+          echo "DEPLOY_PATH=docs" >> $GITHUB_ENV
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
         uses: maxheld83/ghpages@v0.2.0
         env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: TRUE
           BUILD_DIR: $DEPLOY_PATH
           GH_PAT: ${{ secrets.GH_PAT }}
     container: rocker/verse:latest
