@@ -14,6 +14,7 @@ jobs:
         run: |-
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
           echo "DEPLOY_PATH=docs" >> $GITHUB_ENV
+          echo DEPLOY_PATH is $DEPLOY_PATH
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
         uses: maxheld83/ghpages@v0.2.0
