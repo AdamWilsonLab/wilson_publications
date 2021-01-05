@@ -18,6 +18,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: maxheld83/ghpages@v0.2.0
         env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: TRUE
           BUILD_DIR: $DEPLOY_PATH
           GH_PAT: ${{ secrets.GH_PAT }}
     container: rocker/verse:latest
