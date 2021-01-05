@@ -1,5 +1,5 @@
 Package: Wilson Lab Publications
-Type: Website
+Type: Package
 Title: Publications by Adam M. Wilson
 Author: Adam M. Wilson
 Maintainer: Adam M. Wilson <adamw@buffalo.edu>
@@ -7,7 +7,7 @@ Description: Publications by Adam M. Wilson
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports:
+Depends:
     scholar
     tidyverse
     glue
