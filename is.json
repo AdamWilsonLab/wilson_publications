@@ -227,18 +227,18 @@
     "claimed_at": "2016-04-11 14:59:29.656361+00:00", 
     "coauthors": [
         {
-            "id": "0000-0003-4312-3804", 
-            "name": "Kent Holsinger", 
-            "num_posts": 95, 
-            "orcid_id": "0000-0003-4312-3804", 
-            "sort_score": 95
-        }, 
-        {
             "id": "u_isB5Xat", 
             "name": "Jasper Slingsby", 
             "num_posts": 86, 
             "orcid_id": "0000-0003-1246-1181", 
             "sort_score": 86
+        }, 
+        {
+            "id": "0000-0003-4312-3804", 
+            "name": "Kent Holsinger", 
+            "num_posts": 95, 
+            "orcid_id": "0000-0003-4312-3804", 
+            "sort_score": 95
         }
     ], 
     "created": "2016-03-01 21:22:18.408549+00:00", 
@@ -756,10 +756,10 @@
             ], 
             "sources": [
                 {
-                    "display_name": "Wikipedia articles", 
+                    "display_name": "Facebook pages", 
                     "events_last_week_count": 0, 
-                    "posts_count": 2, 
-                    "source_name": "wikipedia"
+                    "posts_count": 5, 
+                    "source_name": "facebook"
                 }, 
                 {
                     "display_name": "News mentions", 
@@ -768,16 +768,16 @@
                     "source_name": "news"
                 }, 
                 {
+                    "display_name": "Wikipedia articles", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 2, 
+                    "source_name": "wikipedia"
+                }, 
+                {
                     "display_name": "Blog posts", 
                     "events_last_week_count": 0, 
                     "posts_count": 7, 
                     "source_name": "blogs"
-                }, 
-                {
-                    "display_name": "Facebook pages", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 5, 
-                    "source_name": "facebook"
                 }
             ], 
             "title": "Metabolic asymmetry and the global diversity of marine predators", 
@@ -1233,22 +1233,22 @@
             ], 
             "sources": [
                 {
-                    "display_name": "News mentions", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 38, 
-                    "source_name": "news"
-                }, 
-                {
-                    "display_name": "Blog posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 6, 
-                    "source_name": "blogs"
-                }, 
-                {
                     "display_name": "Reddit posts", 
                     "events_last_week_count": 0, 
                     "posts_count": 4, 
                     "source_name": "reddit"
+                }, 
+                {
+                    "display_name": "Facebook pages", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 3, 
+                    "source_name": "facebook"
+                }, 
+                {
+                    "display_name": "News mentions", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 38, 
+                    "source_name": "news"
                 }, 
                 {
                     "display_name": "Google+ posts", 
@@ -1257,10 +1257,10 @@
                     "source_name": "googleplus"
                 }, 
                 {
-                    "display_name": "Facebook pages", 
+                    "display_name": "Blog posts", 
                     "events_last_week_count": 0, 
-                    "posts_count": 3, 
-                    "source_name": "facebook"
+                    "posts_count": 6, 
+                    "source_name": "blogs"
                 }
             ], 
             "title": "Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions", 
@@ -1575,22 +1575,22 @@
             ], 
             "sources": [
                 {
-                    "display_name": "News mentions", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 15, 
-                    "source_name": "news"
-                }, 
-                {
-                    "display_name": "Blog posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 11, 
-                    "source_name": "blogs"
-                }, 
-                {
                     "display_name": "Reddit posts", 
                     "events_last_week_count": 0, 
                     "posts_count": 1, 
                     "source_name": "reddit"
+                }, 
+                {
+                    "display_name": "Facebook pages", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 6, 
+                    "source_name": "facebook"
+                }, 
+                {
+                    "display_name": "News mentions", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 15, 
+                    "source_name": "news"
                 }, 
                 {
                     "display_name": "Google+ posts", 
@@ -1599,10 +1599,10 @@
                     "source_name": "googleplus"
                 }, 
                 {
-                    "display_name": "Facebook pages", 
+                    "display_name": "Blog posts", 
                     "events_last_week_count": 0, 
-                    "posts_count": 6, 
-                    "source_name": "facebook"
+                    "posts_count": 11, 
+                    "source_name": "blogs"
                 }
             ], 
             "title": "Content Volatility of Scientific Topics in Wikipedia: A Cautionary Tale", 
@@ -1699,6 +1699,12 @@
             ], 
             "sources": [
                 {
+                    "display_name": "Facebook pages", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 1, 
+                    "source_name": "facebook"
+                }, 
+                {
                     "display_name": "News mentions", 
                     "events_last_week_count": 0, 
                     "posts_count": 4, 
@@ -1709,12 +1715,6 @@
                     "events_last_week_count": 0, 
                     "posts_count": 1, 
                     "source_name": "blogs"
-                }, 
-                {
-                    "display_name": "Facebook pages", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 1, 
-                    "source_name": "facebook"
                 }
             ], 
             "title": "Intensifying postfire weather and biological invasion drive species loss in a Mediterranean-type biodiversity hotspot", 
@@ -1821,16 +1821,16 @@
             ], 
             "sources": [
                 {
+                    "display_name": "Facebook pages", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 3, 
+                    "source_name": "facebook"
+                }, 
+                {
                     "display_name": "News mentions", 
                     "events_last_week_count": 0, 
                     "posts_count": 3, 
                     "source_name": "news"
-                }, 
-                {
-                    "display_name": "Blog posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 1, 
-                    "source_name": "blogs"
                 }, 
                 {
                     "display_name": "Google+ posts", 
@@ -1839,10 +1839,10 @@
                     "source_name": "googleplus"
                 }, 
                 {
-                    "display_name": "Facebook pages", 
+                    "display_name": "Blog posts", 
                     "events_last_week_count": 0, 
-                    "posts_count": 3, 
-                    "source_name": "facebook"
+                    "posts_count": 1, 
+                    "source_name": "blogs"
                 }
             ], 
             "title": "Climatic controls on ecosystem resilience: Postfire regeneration in the Cape Floristic Region of South Africa", 
@@ -1908,16 +1908,16 @@
                     "source_name": "news"
                 }, 
                 {
-                    "display_name": "Blog posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 1, 
-                    "source_name": "blogs"
-                }, 
-                {
                     "display_name": "Google+ posts", 
                     "events_last_week_count": 0, 
                     "posts_count": 2, 
                     "source_name": "googleplus"
+                }, 
+                {
+                    "display_name": "Blog posts", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 1, 
+                    "source_name": "blogs"
                 }
             ], 
             "title": "Wikipedia Content Volatility", 
@@ -2005,16 +2005,16 @@
             ], 
             "sources": [
                 {
-                    "display_name": "Blog posts", 
-                    "events_last_week_count": 0, 
-                    "posts_count": 3, 
-                    "source_name": "blogs"
-                }, 
-                {
                     "display_name": "Facebook pages", 
                     "events_last_week_count": 0, 
                     "posts_count": 1, 
                     "source_name": "facebook"
+                }, 
+                {
+                    "display_name": "Blog posts", 
+                    "events_last_week_count": 0, 
+                    "posts_count": 3, 
+                    "source_name": "blogs"
                 }
             ], 
             "title": "Modeling daily flowering probabilities: expected impact of climate change on Japanese cherry phenology", 
@@ -4279,40 +4279,16 @@
     "promos": {}, 
     "sources": [
         {
-            "display_name": "Public peer reviews", 
-            "events_last_week_count": 0, 
-            "posts_count": 1, 
-            "source_name": "peer_reviews"
-        }, 
-        {
-            "display_name": "Wikipedia articles", 
-            "events_last_week_count": 0, 
-            "posts_count": 3, 
-            "source_name": "wikipedia"
-        }, 
-        {
-            "display_name": "News mentions", 
-            "events_last_week_count": 0, 
-            "posts_count": 85, 
-            "source_name": "news"
-        }, 
-        {
-            "display_name": "Blog posts", 
-            "events_last_week_count": 0, 
-            "posts_count": 31, 
-            "source_name": "blogs"
-        }, 
-        {
             "display_name": "Reddit posts", 
             "events_last_week_count": 0, 
             "posts_count": 5, 
             "source_name": "reddit"
         }, 
         {
-            "display_name": "Google+ posts", 
+            "display_name": "Facebook pages", 
             "events_last_week_count": 0, 
-            "posts_count": 10, 
-            "source_name": "googleplus"
+            "posts_count": 26, 
+            "source_name": "facebook"
         }, 
         {
             "display_name": "Tweets", 
@@ -4321,16 +4297,40 @@
             "source_name": "twitter"
         }, 
         {
+            "display_name": "Public peer reviews", 
+            "events_last_week_count": 0, 
+            "posts_count": 1, 
+            "source_name": "peer_reviews"
+        }, 
+        {
             "display_name": "F1000 reviews", 
             "events_last_week_count": 0, 
             "posts_count": 1, 
             "source_name": "f1000"
         }, 
         {
-            "display_name": "Facebook pages", 
+            "display_name": "News mentions", 
             "events_last_week_count": 0, 
-            "posts_count": 26, 
-            "source_name": "facebook"
+            "posts_count": 85, 
+            "source_name": "news"
+        }, 
+        {
+            "display_name": "Wikipedia articles", 
+            "events_last_week_count": 0, 
+            "posts_count": 3, 
+            "source_name": "wikipedia"
+        }, 
+        {
+            "display_name": "Google+ posts", 
+            "events_last_week_count": 0, 
+            "posts_count": 10, 
+            "source_name": "googleplus"
+        }, 
+        {
+            "display_name": "Blog posts", 
+            "events_last_week_count": 0, 
+            "posts_count": 31, 
+            "source_name": "blogs"
         }
     ], 
     "subscores": [

@@ -1,0 +1,22 @@
+Package: Wilson Lab Publications
+Type: Website
+Title: Publications by Adam M. Wilson
+Author: Adam M. Wilson
+Maintainer: Adam M. Wilson <adamw@buffalo.edu>
+Description: Publications by Adam M. Wilson
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    scholar
+    tidyverse
+    glue
+    jsonlite
+    stringdist
+    stringr
+    tidyjson
+    rAltmetric
+    fuzzyjoin
+LazyData: true
+RoxygenNote: 5.0.1
+VignetteBuilder: knitr
