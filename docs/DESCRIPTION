@@ -7,14 +7,15 @@ Description: Publications by Adam M. Wilson
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends:
-    tidyverse
-    glue
-    jsonlite
-    stringdist
-    stringr
-    tidyjson
-    rAltmetric
+Imports:
+    scholar,
+    tidyverse,
+    glue,
+    jsonlite,
+    stringdist,
+    stringr,
+    tidyjson,
+    rAltmetric,
     fuzzyjoin
 LazyData: true
 RoxygenNote: 5.0.1
