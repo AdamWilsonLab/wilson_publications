@@ -1,6 +1,5 @@
 ---
-title: "Publications"
-author: "Adam M. Wilson"
+title: Publications and Presentations
 output: html_document
 ---
   
@@ -61,8 +60,8 @@ pubs2 <- pubs %>%
     author=str_replace_all(author, "AM Wilson", "<b>AM Wilson</b>"), # make my name fat 
     author=str_replace_all(author, "A Wilson", "<b>AM Wilson</b>"), # make my name fat 
 #    glue_citation=glue('{author} ({year}) <a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, <i>{journal}</i>, {number}.'),
-    glue_citation=glue('<a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, <i>{journal}</i>, {number} ({year}).'),
-  glue_google=ifelse(cites==0,"",paste('<a title="Citations from Google Scholar" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=',cid,'" target="_blank"><img alt="Google Scholar" src="images/google.png" width="15px"><font color="blue">',cites,' citations; </font></a>')),
+    glue_citation=glue('<a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en"><font color="black">{title}</font></a>, <i>{journal}</i>, {number} ({year}).'),
+  glue_google=ifelse(cites==0,"",paste('<a title="Citations from Google Scholar" href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=',cid,'" target="_blank"><img alt="Google Scholar" src="images/google.png" width="15px"><font color="#4285f4">',cites,' citations; </font></a>')),
   glue_altmetric=ifelse(altmetric_score<0.1|is.na(altmetric_score),"",paste('<a title="Altmetric " href="https://www.altmetric.com/details/{altmetric_id}" target="_blank"><img alt="Altmetric" src="images/altm.png" width="15px"><font color="darkred"> Altmetric Score ',round(as.numeric(altmetric_score),1),'</font></a>')),
   glue_media=paste(ifelse(!is.na(media),paste('Media Links:',media),"")))
 
