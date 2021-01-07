@@ -13,8 +13,7 @@ jobs:
       - name: Render Site
         run: |-
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
-          mkdir docs
-          echo "DEPLOY_PATH=docs/" >> $GITHUB_ENV
+          echo "DEPLOY_PATH=." >> $GITHUB_ENV
           echo DEPLOY_PATH is $DEPLOY_PATH
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
