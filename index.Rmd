@@ -51,7 +51,7 @@ gs2=left_join(gs,media_summarized,by="document.id")
 
 
 pubs2 <- pubs %>%
-  stringdist_left_join(gs2, by = "title", max_dist = 1) %>% 
+  fuzzyjoin::stringdist_left_join(gs2, by = "title", max_dist = 1) %>% 
   rename(title=title.x,year=year.x) %>% 
   mutate(
 #    author=str_replace_all(author, " (\\S) ", "\\1 "),
